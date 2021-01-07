@@ -4,7 +4,7 @@
 #ifdef _WIN32
 #define DLL_API extern "C" __declspec(dllexport)
 #else
-#define DLL_API
+#define DLL_API extern "C" 
 #endif
 
 #ifdef __cplusplus
